@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+body {
+    font-family: Pacifico, serif;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #7b39b1 0%, #f4e0ff 100%);
+    font-size:20px;
+    color: rgb(19, 14, 56);
+    margin-left: 20px;
+}
+
+.page {
+    display: flex;
+}
+
+.left {
+    width: 15%;
+}
+
+.center {
+    width: 85%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.basis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 500px;
+    font-size: 25px;
+}
+
+.slide-text {
+    color: rgb(39, 27, 114);
+    margin: auto auto;
+    font-size: 40px;
+}
+
+.corusel {
+    margin-bottom: 50px;
+}
+
+.left2 {
+    width: 70%;
+    margin-bottom: 500px;
+}
+
+.center2 {
+    width: 30%;
+    margin-bottom: 500px;
+}
+
+.fon {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.results {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 300px;
+    font-size: 15px;
+}
+
+.main2 {
+    margin-top: 40px;
+}
+
+.fon-fakeanswer {
+    margin-left: 20px;
+}
+
+.img-fakeanswer img {
+    width: 300px;
+    height: 320px;
+}
+
+.animation {
+    animation: myAnim 3s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.buttonYes button {
+    padding: 10px 30px;
+    justify-content: center;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    background-color: rgb(173, 162, 247);
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px;
+    color:rgb(215, 211, 238);
+}
+
+.attributes button {
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    justify-content: space-between;
+    background-color: rgb(124, 108, 224);
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px;
+    color:rgb(197, 191, 231);
+}
+
+.video {
+    height: 100vh;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video video{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
